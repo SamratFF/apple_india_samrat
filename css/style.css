@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200;400&display=swap');
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+nav{
+     background: rgba(0,0,0,0.8);
+     max-height: 46px;
+}
+.liBTN{
+     display: flex;
+     width: max-content;
+     margin: 0 auto;
+     padding: 12px;
+}
+
+.liBTN li{
+     list-style: none;
+     margin: 0 1rem;
+     padding: 0 0.5rem;
+}
+
+.liBTN li a{
+     font-size: 13px;
+     color: #e2e2e5;
+     text-decoration: none;
+     opacity: .8;
+     letter-spacing: -.01em;
+     font-weight: 400;
+     transition: ease-in-out 0.25s;
+
+     font-family: 'Nunito Sans', sans-serif;
+}
+
+.liBTN li a:hover{
+     color: rgb(255, 255, 255);
+     font-weight: 500;
+     font-size: 15px;
+     transition: ease-in-out 0.125s;
+}
+
+
+.liBTN li a img{
+     width: 22px;
+     height: 19px;
+     transition: ease 0.125s;
+}
+
+.liBTN li a img:hover{
+     width: 25px;
+     height: 21px;
+     transition: ease 0.125s;
+}
+
+#appleLogoNav{
+     width: 60px;
+     height: 20px;
+     margin-right: -1.5rem;
+     transition: ease 0.125s;
+}
+
+#appleLogoNav:hover{
+     width: 65px;
+     height: 23px;
+     transition: ease 0.125s;
+}
+
+
+.mainTopMessage{
+     max-height: 2.786rem;
+     min-height: 2.786rem;
+     background: #fbfbfd;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.mainTopMessage p{
+     font-size: 15px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 500;
+     color: rgb(34, 34, 34);
+}
+
+.mainTopMessage p a{
+     text-decoration: none;
+     color: rgb(0, 128, 255);
+}
+.mainTopMessage p a:hover{
+     text-decoration: underline;
+     
+}
+
+
+
+
+footer{
+     background: #f7f7f8;
+     margin-top: 1rem;
+}
+
+.footerContent{
+     width: 60%;
+     margin: 0 auto;
+     padding: 2rem 0;
+}
+.footerMessage{
+     margin-top: -2rem;
+}
+
+.footerMessage p{
+     margin: 0.7rem 0;
+     font-size: 14px;
+     font-weight: 400;
+     opacity: 0.6;
+
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footerCategories{
+     display: flex;
+}
+
+.columns{
+     margin: 1rem 2rem 2rem;
+}
+
+.columns h4{
+     font-size: 14px;
+     font-weight: 600;
+     color: #4e4e50;
+     
+     cursor: default;
+
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.columns ul li{
+     list-style: none;
+     margin: 0.5em 0;
+}
+
+.columns ul li a{
+     color: #424245;
+     text-decoration: none;
+     font-size: 0.85em;
+
+     font-family: inherit;
+     font-weight: inherit;
+     line-height: inherit;
+     text-align: inherit;
+
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.columns ul li a:hover{
+     text-decoration: underline;
+}
+
+.footerEndingUpper{
+     margin-bottom: 1rem;
+}
+
+.footerEndingUpper p{
+     color: #6e6e73;
+     font-size: 15px;
+}
+.footerEndingUpper p a{
+     color: #06c;
+     text-decoration: none;
+     font-size: 14px;
+
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footerEndingUpper p a:hover{
+     text-decoration: underline;
+}
+
+.footerEndingLower{
+     margin: 1rem 0;
+     display: flex;
+}
+
+.footerEndingLower span{
+     font-size: 14.5px;
+     color: #6e6e73;
+
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footerEndingLowerLinks{
+     margin-left: 3rem;
+}
+
+.footerEndingLowerLinks ul{
+     display: flex;
+}
+.footerEndingLowerLinks ul li{
+     list-style: none;
+     margin: 0 0.5rem;
+}
+.footerEndingLowerLinks ul li a{
+     text-decoration: none;
+     color: #69696d;
+
+     font-size: 0.9em;
+     font-family: inherit;
+     font-weight: inherit;
+     line-height: inherit;
+     text-align: inherit;
+
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footerEndingLowerLinks ul li a:hover{
+     text-decoration: underline;
+}
+
+.footerEndingLowerCountry{
+     width: max-content;
+     margin: 0 auto;
+}
+
+.footerEndingLowerCountry div a{
+     text-decoration: none;
+     color: #69696d;
+
+     font-size: 0.9em;
+     font-family: inherit;
+     font-weight: inherit;
+     line-height: inherit;
+     text-align: inherit;
+
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footerEndingLowerCountry div a:hover{
+     text-decoration: underline;
+}
+
+
+.SAMRAT_CREDIT{
+     width: fit-content;
+     margin: 5rem auto;
+
+}
+
+.SAMRAT_CREDIT p{
+     font-size: 25px;
+     padding: 0.8em;
+
+     border: black;
+     border-style: double;
+}
